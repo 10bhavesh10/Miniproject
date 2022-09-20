@@ -104,7 +104,7 @@ else:
     video_capture.release()
     cv2.destroyAllWindows()   
 
-if(len(devices)!=0):
+if(len(devices)!=0 and len(name)>0):
     print(f'Connected to {device}')
     paytm = '340 1041' # x y
     device.shell(f'input tap {paytm}')
