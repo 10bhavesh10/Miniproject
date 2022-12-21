@@ -34,13 +34,13 @@ hari_image = face_recognition.load_image_file("E:\\Damn\\Hari.jpg")
 all_face_encodings["Hari"] = face_recognition.face_encodings(hari_image)[0]
 
 UPI={}
-UPI["Harish"]=str('harish@kvb')
-UPI["Arun"]=str("arun@nothing")
-UPI["Aba"]=str("aba@manasu vali")
-UPI["Bhavesh"]=str("bhavesh@hdfc")
-UPI["Raghav"]=str("raghav@damn")
-UPI["Abhay"]=str("abhay@umbrella")
-UPI["Hari"]=str("hari@tyre")
+UPI["Harish"]=str('harishjonsena@okaxis')
+UPI["Arun"]=str("9786020894@upi")
+UPI["Aba"]=str("abhiabarajith@okicici")
+UPI["Bhavesh"]=str("bhaveshpay@upi")
+UPI["Raghav"]=str("raghavn753@okicici")
+UPI["Abhay"]=str("6309190023@patym")
+UPI["Hari"]=str("hariharasudhan8129@okhdfc")
 
 with open('facen.dat', 'wb') as f:
     pickle.dump(all_face_encodings, f)
